@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Rule modules and generator/checker logic live in src/lib/rules.ts (pure, tested in src/test/rules.test.ts); external URLs in src/lib/links.ts — single source for content and links.
