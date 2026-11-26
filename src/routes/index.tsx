@@ -29,7 +29,7 @@ function Index() {
           Stellen Sie Ihre <span className="font-mono">.cursorrules</span>, <span className="font-mono">CLAUDE.md</span> oder Copilot-Instructions aus geprüften Modulen zusammen – testen, kopieren, fertig.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <a href="#generator" className="rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:opacity-90">Regeldatei erstellen</a>
+          <a href="#generator" className="rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary-hover">Regeldatei erstellen</a>
           <a href={LINKS.hub} target="_blank" rel="noreferrer" className="rounded-md border border-foreground/20 px-5 py-3 font-semibold hover:bg-muted">Managed Vibe Coding</a>
         </div>
       </section>

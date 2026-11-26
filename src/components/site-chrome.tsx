@@ -15,7 +15,7 @@ export function SiteHeader() {
           <Link to="/" activeOptions={{ exact: true }} activeProps={{ className: "text-primary" }}>Generator</Link>
           <Link to="/governance" activeProps={{ className: "text-primary" }}>Governance</Link>
           <a href={LINKS.repo} target="_blank" rel="noreferrer" className="hidden items-center gap-1 sm:flex"><Github className="h-4 w-4" />GitHub</a>
-          <a href={LINKS.booking} target="_blank" rel="noreferrer" className="rounded-md bg-primary px-4 py-2 text-primary-foreground hover:opacity-90">Termin buchen</a>
+          <a href={LINKS.booking} target="_blank" rel="noreferrer" className="rounded-md bg-primary px-4 py-2 text-primary-foreground hover:bg-primary-hover">Termin buchen</a>
         </nav>
       </div>
     </header>
@@ -32,7 +32,7 @@ export function SiteFooter() {
             Managed Vibe Coding und SaaS Replacement Sprints – mit Governance, CI-Gates und Azure Landing Zone von Anfang an.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href={LINKS.booking} target="_blank" rel="noreferrer" className="rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:opacity-90">Erstgespräch buchen</a>
+            <a href={LINKS.booking} target="_blank" rel="noreferrer" className="rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary-hover">Erstgespräch buchen</a>
             <a href={LINKS.hub} target="_blank" rel="noreferrer" className="rounded-md border border-secondary-foreground/30 px-5 py-3 font-semibold hover:bg-secondary-foreground/10">Zum Sales Hub</a>
           </div>
         </div>

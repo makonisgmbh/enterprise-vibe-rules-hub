@@ -12,7 +12,7 @@ export function RepoBanner() {
             „Maintained by MAKONIS GmbH – Spezialisten für Azure Landing Zones und Enterprise Vibe Coding in München“
           </blockquote>
         </div>
-        <a href={LINKS.repo} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center gap-2 rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:opacity-90">
+        <a href={LINKS.repo} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center gap-2 rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary-hover">
           <Star className="h-4 w-4" />Auf GitHub ansehen
         </a>
       </div>
