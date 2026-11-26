@@ -9,6 +9,7 @@
 [![OWASP Top 10 Aligned](https://img.shields.io/badge/OWASP%20Top%2010-Aligned-F97316.svg)](https://owasp.org/www-project-top-ten/)
 [![DevSecOps Automated](https://img.shields.io/badge/DevSecOps-Automated-1C1917.svg)](#cicd-automated-gates)
 [![ISO 27001 Baseline](https://img.shields.io/badge/ISO%2027001-Baseline-F97316.svg)](#security--secrets-prevention)
+[![Live Rule Generator](https://img.shields.io/badge/Live%20Rule%20Generator-Online-F97316.svg)](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/)
 
 **Versionierte AI-Coding-Regeln für sichere, wartbare und produktionsnahe Enterprise-Anwendungen.** Das Open-Source-Projekt bündelt Governance-Vorgaben für Cursor, Claude Code und GitHub Copilot und stellt einen interaktiven Generator für projektspezifische Regeldateien bereit.
 
@@ -44,7 +45,7 @@ Die Regeln ergänzen menschliche Code-Reviews und automatisierte Prüfungen. Sie
 
 ### Regeldatei mit dem Generator erstellen
 
-1. Starten Sie die [interaktive Web-App lokal](#lokale-entwicklung) oder öffnen Sie ihre veröffentlichte Instanz.
+1. Öffnen Sie den [Live Rule Generator](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/) oder starten Sie die [interaktive Web-App lokal](#lokale-entwicklung).
 2. Wählen Sie die benötigten Module aus Security, Architecture, DevSecOps und SaaS Replacement.
 3. Wählen Sie **Cursor**, **Claude Code** oder **GitHub Copilot** als Zieltool.
 4. Prüfen Sie die Vorschau, kopieren Sie den Inhalt oder laden Sie die Regeldatei herunter.
@@ -200,7 +201,7 @@ SaaS Replacement ist kein reines Nachbauen vorhandener Oberflächen. Das Modul v
 
 ## Live Rule Generator
 
-Der **interaktive Live Rule Generator** ist als Web-App in diesem Repository enthalten und macht die Regelmodule ohne manuelle Zusammenstellung nutzbar. Die Anwendung kann lokal gestartet oder als öffentliche Instanz veröffentlicht werden.
+Der **interaktive Live Rule Generator** macht die Regelmodule ohne manuelle Zusammenstellung nutzbar: **[Live Rule Generator öffnen](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/)**. Der Quellcode der Anwendung liegt im Repository [makonisgmbh/enterprise-vibe-rules-hub](https://github.com/makonisgmbh/enterprise-vibe-rules-hub); lokal lässt sich die Web-App wie unter [Lokale Entwicklung](#lokale-entwicklung) beschrieben starten.
 
 **Funktionen:**
 
@@ -294,4 +295,4 @@ Dieses Projekt steht unter der [MIT License](https://opensource.org/license/mit/
 
 ---
 
-**Repository:** [makonis/enterprise-vibe-coding-rules](https://github.com/makonis/enterprise-vibe-coding-rules) · **Maintainer:** [MAKONIS GmbH](https://makonis.de), München
+**Repository:** [makonis/enterprise-vibe-coding-rules](https://github.com/makonis/enterprise-vibe-coding-rules) · **Live Rule Generator:** [makonisgmbh/enterprise-vibe-rules-hub](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/) · **Maintainer:** [MAKONIS GmbH](https://makonis.de), München
