@@ -89,7 +89,7 @@ export function buildRuleFile(target: Target, ids: string[], project: string): s
     .map((m) => `## ${m.title}\n\n${m.rules.map((r) => `- ${r}`).join("\n")}`)
     .join("\n\n");
   const footer =
-    "---\nBased on makonis/enterprise-vibe-coding-rules · Maintained by MAKONIS GmbH";
+    "---\nBased on makonisgmbh/enterprise-vibe-rules-hub · Maintained by MAKONIS GmbH";
   return [header, body || "_No modules selected._", footer].join("\n\n") + "\n";
 }
 

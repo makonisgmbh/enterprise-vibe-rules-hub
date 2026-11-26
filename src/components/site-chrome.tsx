@@ -40,7 +40,7 @@ export function SiteFooter() {
           <p className="font-semibold text-secondary-foreground">MAKONIS GmbH</p>
           <p>München</p>
           <p className="mt-3">Azure Landing Zones · Enterprise Vibe Coding</p>
-          <a href={LINKS.repo} className="mt-3 inline-block underline" target="_blank" rel="noreferrer">makonis/enterprise-vibe-coding-rules</a>
+          <a href={LINKS.repo} className="mt-3 inline-block underline" target="_blank" rel="noreferrer">makonisgmbh/enterprise-vibe-rules-hub</a>
         </div>
       </div>
     </footer>

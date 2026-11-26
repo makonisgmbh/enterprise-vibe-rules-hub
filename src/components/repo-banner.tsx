@@ -7,7 +7,7 @@ export function RepoBanner() {
       <div className="grid gap-6 rounded-xl bg-secondary p-8 text-secondary-foreground md:grid-cols-[minmax(0,1fr)_auto] md:items-center">
         <div className="min-w-0">
           <div className="flex items-center gap-2 text-sm font-semibold text-primary"><Github className="h-4 w-4" />Open Source</div>
-          <p className="mt-2 font-mono text-xl font-medium">makonis/enterprise-vibe-coding-rules</p>
+          <p className="mt-2 font-mono text-xl font-medium">makonisgmbh/enterprise-vibe-rules-hub</p>
           <blockquote className="mt-4 border-l-4 border-primary pl-4 text-secondary-foreground/80">
             „Maintained by MAKONIS GmbH – Spezialisten für Azure Landing Zones und Enterprise Vibe Coding in München“
           </blockquote>

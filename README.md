@@ -3,7 +3,10 @@
 > **Maintained by [MAKONIS GmbH](https://makonis.de)** – Spezialisten für Azure Landing Zones und [Enterprise Vibe Coding](https://makonis.de/ratgeber/enterprise-vibe-coding) in München.
 >
 > Benötigen Sie Unterstützung bei AI Governance, SaaS-Replacement oder Legacy Modernization? [30-Minuten KI-Architektur-Audit buchen](https://meet.makonis.de/team/ki-beratung) oder [Managed Vibe Coding im MAKONIS Sales Hub anfragen](https://hub.makonis.de).
+>
+> **Offizielles Repository (Quellcode & Mitwirkung):** [github.com/makonisgmbh/enterprise-vibe-rules-hub](https://github.com/makonisgmbh/enterprise-vibe-rules-hub) · **Live Rule Generator:** [makonisgmbh.github.io/enterprise-vibe-rules-hub](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/)
 
+[![Repository: makonisgmbh/enterprise-vibe-rules-hub](https://img.shields.io/badge/Repository-makonisgmbh%2Fenterprise--vibe--rules--hub-1C1917.svg)](https://github.com/makonisgmbh/enterprise-vibe-rules-hub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F97316.svg)](https://opensource.org/license/mit/)
 [![Tools: Cursor / Claude Code / Copilot](https://img.shields.io/badge/Tools-Cursor%20%2F%20Claude%20Code%20%2F%20Copilot-1C1917.svg)](#rule-sets--konfigurationsdateien)
 [![OWASP Top 10 Aligned](https://img.shields.io/badge/OWASP%20Top%2010-Aligned-F97316.svg)](https://owasp.org/www-project-top-ten/)
@@ -201,7 +204,7 @@ SaaS Replacement ist kein reines Nachbauen vorhandener Oberflächen. Das Modul v
 
 ## Live Rule Generator
 
-Der **interaktive Live Rule Generator** macht die Regelmodule ohne manuelle Zusammenstellung nutzbar: **[Live Rule Generator öffnen](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/)**. Der Quellcode der Anwendung liegt im Repository [makonisgmbh/enterprise-vibe-rules-hub](https://github.com/makonisgmbh/enterprise-vibe-rules-hub); lokal lässt sich die Web-App wie unter [Lokale Entwicklung](#lokale-entwicklung) beschrieben starten.
+Der **interaktive Live Rule Generator** macht die Regelmodule ohne manuelle Zusammenstellung nutzbar: **[Live Rule Generator öffnen](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/)**. **Quellcode und Mitwirkung:** [github.com/makonisgmbh/enterprise-vibe-rules-hub](https://github.com/makonisgmbh/enterprise-vibe-rules-hub) – Issues und Pull Requests laufen direkt über dieses Repository. Lokal lässt sich die Web-App wie unter [Lokale Entwicklung](#lokale-entwicklung) beschrieben starten.
 
 **Funktionen:**
 
@@ -225,8 +228,8 @@ Der Live-Test erkennt ausgewählte Muster wie hartcodierte Secrets, `eval()`, ri
 ### Installation und Start
 
 ```bash
-git clone https://github.com/makonis/enterprise-vibe-coding-rules.git
-cd enterprise-vibe-coding-rules
+git clone https://github.com/makonisgmbh/enterprise-vibe-rules-hub.git
+cd enterprise-vibe-rules-hub
 bun install
 bun run dev
 ```
@@ -249,7 +252,7 @@ Die Anwendung basiert auf TanStack Start, React, TypeScript, Vite und Tailwind C
 ## Projektstruktur
 
 ```text
-enterprise-vibe-coding-rules/
+enterprise-vibe-rules-hub/
 ├── src/
 │   ├── components/
 │   │   └── generator.tsx        # Auswahl, Vorschau, Download und Live-Test
@@ -270,12 +273,12 @@ enterprise-vibe-coding-rules/
 
 Beiträge zu Regelmodulen, Prüfungen, Dokumentation und Tool-Unterstützung sind willkommen.
 
-1. Forken Sie das Repository und erstellen Sie einen Branch.
+1. Forken Sie das [Repository](https://github.com/makonisgmbh/enterprise-vibe-rules-hub) und erstellen Sie einen Branch.
 2. Ändern Sie gemeinsame Regeln ausschließlich nachvollziehbar und mit klarer Begründung.
 3. Ergänzen oder aktualisieren Sie Tests für jede neue Geschäfts- oder Prüfregel.
 4. Führen Sie Tests, Linting und Build lokal aus.
 5. Fügen Sie keine Secrets, personenbezogenen Daten oder vertraulichen Kundeninformationen hinzu.
-6. Eröffnen Sie einen Pull Request und beschreiben Sie Verhalten, Risiken und Prüfumfang.
+6. Eröffnen Sie einen [Pull Request](https://github.com/makonisgmbh/enterprise-vibe-rules-hub/pulls) und beschreiben Sie Verhalten, Risiken und Prüfumfang.
 
 Mit einem Beitrag stimmen Sie zu, dass dieser unter der MIT-Lizenz des Projekts veröffentlicht wird.
 
@@ -295,4 +298,4 @@ Dieses Projekt steht unter der [MIT License](https://opensource.org/license/mit/
 
 ---
 
-**Repository:** [makonis/enterprise-vibe-coding-rules](https://github.com/makonis/enterprise-vibe-coding-rules) · **Live Rule Generator:** [makonisgmbh/enterprise-vibe-rules-hub](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/) · **Maintainer:** [MAKONIS GmbH](https://makonis.de), München
+**Repository (Quellcode & Mitwirkung):** [makonisgmbh/enterprise-vibe-rules-hub](https://github.com/makonisgmbh/enterprise-vibe-rules-hub) · **Live Rule Generator:** [makonisgmbh.github.io/enterprise-vibe-rules-hub](https://makonisgmbh.github.io/enterprise-vibe-rules-hub/) · **Maintainer:** [MAKONIS GmbH](https://makonis.de), München
